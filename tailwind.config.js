@@ -3,10 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bahnschrift: ['"Bahnschrift"', 'sans-serif'],
-        migraBold: ['"Migra ExtraBold"', 'serif'],
-        migraLight: ['"Migra ExtraLight"', 'serif'],
-        sloop: ['"Sloop Script"', 'cursive'],
+        moresugar: ['MoreSugar', 'sans-serif'],
       },
     },
   },
