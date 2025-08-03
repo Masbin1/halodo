@@ -14,26 +14,28 @@
   </head>
   <body class="bg-black text-white">
     <!-- Navbar -->
-    <header class="w-full bg-black flex items-center justify-between px-8 py-4">
-      <img src="/img/logo-halodo.png" alt="Halodo Logo" class="h-10" />
-      <nav class="flex space-x-8 text-lg font-semibold">
+    <header
+      class="w-full bg-black flex items-center justify-between px-2 py-0 h-[80px] overflow-hidden"
+    >
+      <img src="src/img/halodo.png" alt="Halodo Logo" class="h-[80px]" />
+      <nav class="flex space-x-4 text-lg font-semibold">
         <a href="#" class="flex items-center gap-2 hover:underline">
-          <img src="/img/home-icon.png" class="h-5" />
+          <img src="src/img/header/home.png" class="h-[200px]" />
           <span>Home</span>
         </a>
         <a
           href="#"
           class="flex items-center gap-2 hover:underline text-orange-500"
         >
-          <img src="/img/menu-icon.png" class="h-5" />
+          <img src="src/img/header/menu.png" class="h-[200px]" />
           <span>Menu</span>
         </a>
         <a href="#" class="flex items-center gap-2 hover:underline">
-          <img src="/img/tentang-icon.png" class="h-5" />
+          <img src="src/img/header/tentang.png" class="h-[200px]" />
           <span>Tentang</span>
         </a>
         <a href="#" class="flex items-center gap-2 hover:underline">
-          <img src="/img/event-icon.png" class="h-5" />
+          <img src="src/img/header/event.png" class="h-[200px]" />
           <span>Event</span>
         </a>
       </nav>
@@ -114,19 +116,35 @@
 
     <!-- Footer -->
     <footer
-      class="bg-black text-white text-sm font-semibold py-4 flex flex-col md:flex-row items-center justify-between px-6"
+      class="absolute bottom-0 left-0 w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm font-semibold"
     >
-      <div class="text-center md:text-left mb-2 md:mb-0">
-        <p>Follow Us</p>
-        <div class="flex gap-4 mt-1 justify-center md:justify-start">
-          <a href="#"><img src="/img/ig.png" class="h-5" alt="Instagram" /></a>
-          <a href="#"><img src="/img/fb.png" class="h-5" alt="Facebook" /></a>
-          <a href="#"><img src="/img/tiktok.png" class="h-5" alt="TikTok" /></a>
+      <div class="flex flex-col items-center md:items-start mb-2 md:mb-0">
+        <p class="mb-1">Follow Us</p>
+        <div class="flex gap-4 text-lg">
+          <a
+            onclick="window.open('https://www.tiktok.com/@seraflorist.id', '_blank')"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            onclick="window.open('https://www.instagram.com/seraflorist.id/', '_blank')"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            onclick="window.open('https://www.tiktok.com/@seraflorist.id', '_blank')"
+            ><i class="fab fa-tiktok"></i
+          ></a>
         </div>
       </div>
-      <p class="text-center md:text-right">
+      <p
+        class="text-center md:text-right mt-2 md:mt-0 text-xs md:text-sm font-moreSugar"
+      >
         The Halway Apace, Ps. Kosambi, Jl.A. Yani No.221-223 Lt.2
       </p>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
