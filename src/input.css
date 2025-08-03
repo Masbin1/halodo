@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Utility (Opsional) */
+@layer utilities {
+  .center-justify {
+    text-align: justify;
+    text-align-last: center;
+  }
+}
+
+/* Custom Fonts from public/font */
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('/font/bahnscrift.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Migra ExtraBold';
+  src: url('/font/Migra-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Migra ExtraLight';
+  src: url('/font/Migra-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sloop Script';
+  src: url('/font/sloop_script_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
