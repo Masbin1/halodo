@@ -1,9 +1,9 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.{html,js}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        moresugar: ['MoreSugar', 'sans-serif'],
+        moreSugar: ['MoreSugar', 'cursive'],
       },
     },
   },
