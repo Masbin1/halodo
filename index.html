@@ -6,38 +6,43 @@
     <title>Halodo Slow-Bar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./dist/output.css" rel="stylesheet" />
+    <link href="./src/responsive.css" rel="stylesheet" />
   </head>
-  <body class="bg-black text-white relative">
+  <body class="bg-black text-white min-h-screen flex flex-col">
     <!-- Navbar -->
     <header
-      class="w-full bg-black flex items-center justify-between px-2 py-0 h-[80px] overflow-hidden"
+      class="w-full bg-black flex items-center justify-between px-4 py-2 h-[10vh] min-h-[60px] overflow-hidden"
     >
-      <img src="src/img/halodo.png" alt="Halodo Logo" class="h-[80px]" />
+      <img
+        src="src/img/halodo.png"
+        alt="Halodo Logo"
+        class="h-[8vh] min-h-[50px]"
+      />
       <nav class="flex space-x-4 text-lg font-semibold">
         <a
           href="index.html"
           class="flex items-center gap-2 hover:underline text-orange-500"
         >
-          <img src="src/img/header/home.png" class="h-[200px]" />
+          <img src="src/img/header/home.png" class="h-[6vh] min-h-[40px]" />
           <span>Home</span>
         </a>
         <a href="menu.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/menu.png" class="h-[200px]" />
+          <img src="src/img/header/menu.png" class="h-[6vh] min-h-[40px]" />
           <span>Menu</span>
         </a>
         <a href="tentang.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/tentang.png" class="h-[200px]" />
+          <img src="src/img/header/tentang.png" class="h-[6vh] min-h-[40px]" />
           <span>Tentang</span>
         </a>
         <a href="event.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/event.png" class="h-[200px]" />
+          <img src="src/img/header/event.png" class="h-[6vh] min-h-[40px]" />
           <span>Event</span>
         </a>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative h-screen w-full align-start">
+    <section class="relative flex-1 w-full" style="aspect-ratio: 16/9">
       <!-- Background Image -->
       <img
         src="/src/img/desk1/hero.jpg"
@@ -47,9 +52,11 @@
 
       <!-- Text Overlay -->
       <div
-        class="absolute top-[50px] right-10 max-w-md text-white drop-shadow-md p-6 rounded-xl"
+        class="absolute top-[10%] right-[5%] max-w-md text-white drop-shadow-md p-6 rounded-xl bg-black/30 backdrop-blur-sm"
       >
-        <h1 class="text-5xl font-moreSugar leading-tight">Halodo Slow-Bar</h1>
+        <h1 class="text-3xl md:text-5xl font-moreSugar leading-tight">
+          Halodo Slow-Bar
+        </h1>
         <p class="italic text-sm mt-1 mb-4 text-orange-300 font-moreSugar">
           Satu teguk, satu cerita dari Bandung
         </p>
@@ -65,7 +72,7 @@
 
     <!-- Footer -->
     <footer
-      class="absolute bottom-0 left-0 w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm font-semibold"
+      class="w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm font-semibold h-[10vh] min-h-[60px]"
     >
       <div class="flex flex-col items-center md:items-start mb-2 md:mb-0">
         <p class="mb-1">Follow Us</p>
