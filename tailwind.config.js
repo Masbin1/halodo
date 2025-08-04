@@ -7,6 +7,8 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         sergioTrendy: ['Sergio Trendy'],
         alfa: ['"Alfa Slab One"', 'serif'],
+        caprasimo: ['Caprasimo', 'cursive'],
+
       },
       aspectRatio: {
         '16/9': '16 / 9',
