@@ -6,17 +6,11 @@
     <title>Menu - Halodo Slow-Bar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./src/responsive.css" rel="stylesheet" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap");
-      body {
-        font-family: "Unbounded", sans-serif;
-      }
-    </style>
+    <link href="./dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-black text-white min-h-screen flex flex-col">
-    <!-- Navbar -->
     <header
-      class="w-full bg-black flex items-center justify-between px-4 py-2 h-[10vh] min-h-[60px] overflow-hidden"
+      class="w-full font-alfa font-bold bg-black flex items-center justify-between px-4 py-2 h-[10vh] min-h-[60px] overflow-hidden"
     >
       <img
         src="src/img/halodo.png"
@@ -25,22 +19,22 @@
       />
       <nav class="flex space-x-4 text-lg font-semibold">
         <a href="index.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/home.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/home.png" class="h-[200px]" />
           <span>Home</span>
         </a>
         <a
           href="menu.html"
           class="flex items-center gap-2 hover:underline text-orange-500"
         >
-          <img src="src/img/header/menu.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/menu.png" class="h-[200px]" />
           <span>Menu</span>
         </a>
         <a href="tentang.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/tentang.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/tentang.png" class="h-[200px]" />
           <span>Tentang</span>
         </a>
         <a href="event.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/event.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/event.png" class="h-[200px]" />
           <span>Event</span>
         </a>
       </nav>
@@ -61,7 +55,9 @@
             alt="Green Hornut"
           />
           <div>
-            <h3 class="text-white font-bold text-lg">Green Hornut</h3>
+            <h3 class="text-white font-bold text-lg font-sarina">
+              Green Hornut
+            </h3>
             <p class="text-sm text-white">
               Dibuat dengan Kacang Hijau, Karamel Asin, dan Klepon sebagai
               hiasan. Khas yang lembut.
@@ -120,22 +116,22 @@
       <!-- Right: Image & Title -->
       <div class="w-full md:w-1/2 relative">
         <img
-          src="src/img/img/Picsart_25-06-23_22-29-04-676.jpg"
+          src="src/img/desk2/hero2.jpg"
           alt="Drink Hero"
           class="w-full h-full object-cover"
         />
         <div
-          class="absolute top-10 left-1/2 -translate-x-1/2 text-center text-white text-lg font-semibold px-4"
+          class="absolute text-4xl top-10 text-right text-white w-full font-sergioTrendy"
         >
-          <p class="text-xl md:text-2xl font-bold">Varian minuman Halodo</p>
-          <p class="text-md">Cocktail, Coffee dan Non-Coffee</p>
+          <p class="font-bold">Varian minuman Halodo</p>
+          <p class="font-bold">Cocktail, Coffee dan Non-Coffee</p>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer
-      class="w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm font-semibold h-[10vh] min-h-[60px]"
+      class="w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-2xl font-semibold h-[10vh] min-h-[60px] font-alfa"
     >
       <div class="flex flex-col items-center md:items-start mb-2 md:mb-0">
         <p class="mb-1">Follow Us</p>
@@ -154,9 +150,7 @@
           ></a>
         </div>
       </div>
-      <p
-        class="text-center md:text-right mt-2 md:mt-0 text-xs md:text-sm font-moreSugar"
-      >
+      <p class="text-center md:text-right mt-2 md:mt-0 text-[20px]">
         The Halway Apace, Ps. Kosambi, Jl.A. Yani No.221-223 Lt.2
       </p>
     </footer>

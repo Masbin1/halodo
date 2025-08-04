@@ -3,7 +3,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        moreSugar: ['MoreSugar', 'cursive'],
+        sarina: ['Sarina', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
+        sergioTrendy: ['Sergio Trendy'],
+        alfa: ['"Alfa Slab One"', 'serif'],
       },
       aspectRatio: {
         '16/9': '16 / 9',

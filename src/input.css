@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Sarina&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/font/poppins.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sergio Trendy';
+  src: url('/font/Sergio-Trendy.ttf') format('trueetype');
+}
 
 @font-face {
   font-family: 'MoreSugar';

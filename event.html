@@ -6,6 +6,7 @@
     <title>Event Halodo</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./src/responsive.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap");
       body {
@@ -16,7 +17,7 @@
   <body class="bg-black text-white min-h-screen flex flex-col">
     <!-- Navbar -->
     <header
-      class="w-full bg-black flex items-center justify-between px-4 py-2 h-[10vh] min-h-[60px] overflow-hidden"
+      class="w-full font-alfa font-bold bg-black flex items-center justify-between px-4 py-2 h-[10vh] min-h-[60px] overflow-hidden"
     >
       <img
         src="src/img/halodo.png"
@@ -25,22 +26,22 @@
       />
       <nav class="flex space-x-4 text-lg font-semibold">
         <a href="index.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/home.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/home.png" class="h-[200px]" />
           <span>Home</span>
         </a>
         <a href="menu.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/menu.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/menu.png" class="h-[200px]" />
           <span>Menu</span>
         </a>
         <a href="tentang.html" class="flex items-center gap-2 hover:underline">
-          <img src="src/img/header/tentang.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/tentang.png" class="h-[200px]" />
           <span>Tentang</span>
         </a>
         <a
           href="event.html"
           class="flex items-center gap-2 hover:underline text-orange-500"
         >
-          <img src="src/img/header/event.png" class="h-[6vh] min-h-[40px]" />
+          <img src="src/img/header/event.png" class="h-[200px]" />
           <span>Event</span>
         </a>
       </nav>
@@ -64,7 +65,7 @@
       <div
         class="w-full md:w-1/2 bg-[#F26124] text-white p-6 md:p-10 text-sm md:text-base leading-relaxed space-y-4"
       >
-        <h2 class="text-xl md:text-2xl font-bold mb-2">
+        <h2 class="text-xl md:text-2xl font-bold mb-2 text-sergioTrendy">
           Event dan Colaborasi di Halodo Slow-Bar
         </h2>
         <p>
@@ -72,29 +73,30 @@
           acara, musik untuk menarik perhatian pelanggan.
         </p>
         <div>
-          <h3 class="font-bold text-white mt-4">TakeOver</h3>
+          <h3 class="font-bold text-white mt-4 text-sergioTrendy">TakeOver</h3>
           <p>
             TakeOver, yaitu acara di mana barista atau bartender dari tempat
             lain datang untuk membuat minuman di Halodo Slow Bar.
           </p>
         </div>
         <div>
-          <h3 class="font-bold text-white mt-4">Tantangan Bikin Mocktail</h3>
+          <h3 class="font-bold text-white mt-4 text-sergioTrendy">
+            Tantangan Bikin Mocktail
+          </h3>
           <p>
             Halodo pernah melakukan tantangan yaitu membuat mocktail untuk umum,
             bukan hanya barista atau bartender Slow Bar.
           </p>
         </div>
         <div>
-          <h3 class="font-bold text-white mt-4">KEUKEN 2023</h3>
+          <h3 class="font-bold text-white mt-4 text-Poppins">KEUKEN 2023</h3>
           <p>Acara yang menampilkan kreasi makanan dan minuman.</p>
         </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer
-      class="w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-sm font-semibold h-[10vh] min-h-[60px]"
+      class="w-full bg-black/90 text-white flex flex-col md:flex-row items-center justify-between px-6 py-4 text-2xl font-semibold h-[10vh] min-h-[60px] font-alfa"
     >
       <div class="flex flex-col items-center md:items-start mb-2 md:mb-0">
         <p class="mb-1">Follow Us</p>
@@ -113,9 +115,7 @@
           ></a>
         </div>
       </div>
-      <p
-        class="text-center md:text-right mt-2 md:mt-0 text-xs md:text-sm font-moreSugar"
-      >
+      <p class="text-center md:text-right mt-2 md:mt-0 text-[20px]">
         The Halway Apace, Ps. Kosambi, Jl.A. Yani No.221-223 Lt.2
       </p>
     </footer>
